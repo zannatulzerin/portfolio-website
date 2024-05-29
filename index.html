@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/0bb7c31af4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Software Developer</p>
+          <h1>Hi, I am <span>Zannatul</span> <br />Ferdous from Bangladesh</h1>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/me.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>
+              As a junior year university student pursuing Software Engineering
+              in Islamic University of Technology, with a passion for UI/UX
+              designing, Frontend and Backend development, I am dedicated to
+              achieve academic excellence and experiences to contribute
+              effectively in a professional setting.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Web Development</span><br />Web app development</li>
+                <li>
+                  <span>Mobile Development</span><br />Mobile app development
+                </li>
+                <li>
+                  <span>UI/UX Design</span><br />UI/UX designing and prototyping
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>May'23 - July'23</span><br />Contractual UI designer
+                  <br />Kernel Technologies
+                </li>
+                <li>
+                  <span>September'23 - Present</span><br />Assistant Event
+                  Management Executive<br />IUT Computer Society
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2021-2025</span><br />Bsc in Software Engineering<br />Islamic
+                  University of Technology<br />CGPA: 3.43
+                </li>
+                <li>
+                  <span>2018-2020</span><br />Higher Secondary Certificate (HSC)
+                  in Science<br />Holy Cross College<br />GPA: 5.00
+                </li>
+                <li>
+                  <span>2013-2018</span><br />Secondary School Certificate (SSC)
+                  in Science<br />Holy Cross Girls' High School<br />GPA: 5.00
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="works">
+      <div class="container">
+        <h1 class="sub-title">My works</h1>
+        <div class="work-list">
+          <div>
+            <h2>Optexa</h2>
+            <p>
+              It’s an object recognition mobile application for visually
+              impaired people to recognize objects of their surroundings. This
+              was made for our Design Project-I. I, along with my teammates
+              built this project using Flutter, Python, Dart and Pretrained
+              models.
+            </p>
+            <a href="https://github.com/zannatulzerin/Design_Project_1-OpTexa"
+              >Learn more</a
+            >
+          </div>
+          <div>
+            <h2>IUTCart</h2>
+            <p>
+              It’s an on campus ecommerce platform for only IUTians to sell and
+              buy their goodies. This was made for our Software Project Lab-II.
+              I, along with my teammates built this website using MERN stack for
+              the whole development.
+            </p>
+            <a href="https://github.com/zannatulzerin/IUTCart">Learn more</a>
+          </div>
+          <div>
+            <h2>PlasmaPlus</h2>
+            <p>
+              It’s a blood donation web app. This was made for our Software
+              Project Lab-I. I, along with my teammates built this project using
+              HTML, CSS, Javascript, PHP, MySQL.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <h2>UI Design</h2>
+            <p>
+              I had worked with Kernel Technologies which is a startup for one
+              of their projects 'HealthBee'. I designed some of their mobile app
+              UIs and whole website UI. There's a link attached here to see my
+              works.
+            </p>
+            <a href="">Learn more</a>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i> fzannatul161@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i> 01602054369</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/zannatulferdous.zerin.14/"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/zannatul-ferdous-zerin/"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/zannatulzerin"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://www.instagram.com/_zerulala_/?hl=en"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+            <a
+              href="/images/CV of Zannatul Ferdous.pdf"
+              download
+              class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="10"
+                placeholder="Your message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright @Zannatul</p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName('tab-links');
+      var tabcontents = document.getElementsByClassName('tab-contents');
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove('active-link');
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove('active-tab');
+        }
+        event.currentTarget.classList.add('active-link');
+        document.getElementById(tabname).classList.add('active-tab');
+      }
+    </script>
+  </body>
+</html>
